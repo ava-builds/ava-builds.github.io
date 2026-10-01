@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Aye Thadar Soe · Portfolio</title>
+  <meta name="description" content="Portfolio of Aye Thadar Soe, computer science and engineering student at Chung-Ang University, interested in AI and user interaction.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="nav">
+    <a class="logo" href="#top">Aye</a>
+    <nav aria-label="Main"><a href="#work">Work</a><a href="#about">About</a><a class="btn" href="#contact">Contact</a></nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" style="padding-top:2.5rem">
+      <div class="hero-text rise">
+        <p class="eyebrow">Hi, I'm</p>
+        <h1>Aye Thadar Soe</h1>
+        <span class="role">CSE student &middot; AI &amp; user interaction</span>
+        <p class="lead">I learn by building, and I start every project with a problem worth solving.</p>
+        <div class="actions"><a class="btn" href="#work">View my work</a><a class="btn ghost" href="#contact">Contact me &rarr;</a></div>
+      </div>
+      <figure class="portrait rise"><img src="portrait.jpg" alt="Portrait of Aye Thadar Soe" width="450" height="563"></figure>
+    </section>
+
+    <section id="process">
+      <div class="head"><p class="label">Process</p><h2>How I work</h2></div>
+      <div class="steps">
+        <div class="step"><b>01</b><h3>Understand</h3><p>Start from a real problem, with surveys and research.</p></div>
+        <div class="step"><b>02</b><h3>Design</h3><p>Shape the experience in Figma, one simple screen at a time.</p></div>
+        <div class="step"><b>03</b><h3>Build</h3><p>Code with AI as a partner, test, and cut what doesn't help.</p></div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="head"><p class="label">Work</p><h2>Selected projects</h2></div>
+      <div class="cards">
+
+        <article class="card">
+          <div class="media"><div class="shots"><img src="proto-1.jpg" alt="Ieumteum screen 1" loading="lazy" onerror="this.remove()"><img src="proto-5.jpg" alt="Ieumteum screen 2" loading="lazy" onerror="this.remove()"><img src="proto-7.jpg" alt="Ieumteum screen 3" loading="lazy" onerror="this.remove()"></div></div>
+          <div class="body">
+            <p class="tag">Team project &middot; Prototype design &middot; Figma</p>
+            <h3><span lang="ko">이음틈</span><small>Ieumteum</small></h3>
+            <p><span class="lbl">Problem</span>Youth policies end at fixed age and time limits, and nothing connects people to the next one.</p>
+            <p><span class="lbl">Solution</span>Calculates when each benefit ends, maps the gaps ahead, and suggests next steps.</p>
+            <details><summary>How I approached it</summary>
+              <p>Start from what is about to end. Rules decide eligibility; AI only explains the results.</p>
+            </details>
+            <a class="link" href="https://www.figma.com/proto/6MBKbxl0ykSeZEbpX4xy1o/%EC%9D%B4%EC%9D%8C%ED%8B%88?node-id=10-643&amp;p=f&amp;viewport=475%2C271%2C0.13&amp;t=bSuQps9jloQQnwAh-1&amp;scaling=scale-down&amp;content-scaling=fixed&amp;starting-point-node-id=67%3A2300&amp;page-id=0%3A1">View prototype &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="media"><div class="shots"><img src="emotion-tracker-1.jpg" alt="Emotion and Habit Tracker screen 1" loading="lazy" onerror="this.remove()"><img src="emotion-tracker-2.jpg" alt="Emotion and Habit Tracker screen 2" loading="lazy" onerror="this.remove()"><img src="emotion-tracker-3.jpg" alt="Emotion and Habit Tracker screen 3" loading="lazy" onerror="this.remove()"></div></div>
+          <div class="body">
+            <p class="tag">In progress &middot; React Native, Firebase, Figma</p>
+            <h3>Emotion &amp; Habit Tracker</h3>
+            <p><span class="lbl">Problem</span>Tracking apps feel like pressure: streaks, notifications, dense dashboards.</p>
+            <p><span class="lbl">Solution</span>A calm journal. Write a note, log how you feel, and choose habits, emotions, or both.</p>
+            <details><summary>How I approached it</summary>
+              <p>Surveyed 14 people, compared five apps, then cut the features down to the essentials.</p>
+              <p><span class="lbl">Learned</span>Paper and screen feel different, and closing that gap is still hard.</p>
+            </details>
+            <a class="link" href="https://github.com/ava-builds/emotion-habit-tracker">View on GitHub &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="media"><span class="badge">Concept frames</span><div class="shots"><img src="make-a-wish-1.jpg" alt="Make a Wish screen 1" loading="lazy" onerror="this.remove()"><img src="make-a-wish-2.jpg" alt="Make a Wish screen 2" loading="lazy" onerror="this.remove()"><img src="make-a-wish-3.jpg" alt="Make a Wish screen 3" loading="lazy" onerror="this.remove()"></div></div>
+          <div class="body">
+            <p class="tag">In progress &middot; React Native, Expo</p>
+            <h3>Make a Wish</h3>
+            <p><span class="lbl">Problem</span>Wish apps become toolboxes of modes and dashboards, not a moment of letting go.</p>
+            <p><span class="lbl">Solution</span>One ritual: speak a wish, watch it become a star, and release it.</p>
+            <details><summary>How I approached it</summary>
+              <p>One action per screen. AI writes code; I direct the design and reject what doesn't fit.</p>
+              <p><span class="lbl">Learned</span>Technically working is not the same as a good product.</p>
+            </details>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="prototype">
+      <div class="proto">
+        <div class="head"><p class="label">Prototype</p><h2><span lang="ko">이음틈</span> screen by screen</h2></div>
+        <div class="rail" tabindex="0" role="group" aria-label="Ieumteum prototype screens, scroll sideways"><figure><img src="proto-1.jpg" alt="Ieumteum prototype: Start" loading="lazy"><figcaption>Start</figcaption></figure><figure><img src="proto-2.jpg" alt="Ieumteum prototype: Profile" loading="lazy"><figcaption>Profile</figcaption></figure><figure><img src="proto-3.jpg" alt="Ieumteum prototype: Questions" loading="lazy"><figcaption>Questions</figcaption></figure><figure><img src="proto-4.jpg" alt="Ieumteum prototype: Diagnosis" loading="lazy"><figcaption>Diagnosis</figcaption></figure><figure><img src="proto-5.jpg" alt="Ieumteum prototype: Gap map" loading="lazy"><figcaption>Gap map</figcaption></figure><figure><img src="proto-6.jpg" alt="Ieumteum prototype: Roadmap" loading="lazy"><figcaption>Roadmap</figcaption></figure><figure><img src="proto-7.jpg" alt="Ieumteum prototype: Policy detail" loading="lazy"><figcaption>Policy detail</figcaption></figure><figure><img src="proto-8.jpg" alt="Ieumteum prototype: AI explainer" loading="lazy"><figcaption>AI explainer</figcaption></figure></div>
+        <p class="center"><a class="btn" href="https://www.figma.com/proto/6MBKbxl0ykSeZEbpX4xy1o/%EC%9D%B4%EC%9D%8C%ED%8B%88?node-id=10-643&amp;p=f&amp;viewport=475%2C271%2C0.13&amp;t=bSuQps9jloQQnwAh-1&amp;scaling=scale-down&amp;content-scaling=fixed&amp;starting-point-node-id=67%3A2300&amp;page-id=0%3A1">Open the Figma prototype &rarr;</a></p>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="head"><p class="label">About</p><h2>A little about me</h2></div>
+      <div class="about">
+        <p>I learn best by building real projects.</p>
+        <ul class="checks">
+          <li><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="10" r="8.5"/><path d="M6.5 10.2l2.4 2.4 4.6-5"/></svg><span>Computer Science and Engineering, Chung-Ang University</span></li>
+          <li><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="10" r="8.5"/><path d="M6.5 10.2l2.4 2.4 4.6-5"/></svg><span>Python, Java, C, HTML, CSS &middot; Figma, Git, React Native, Firebase</span></li>
+          <li><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="10" r="8.5"/><path d="M6.5 10.2l2.4 2.4 4.6-5"/></svg><span>Burmese, English, Korean</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" style="padding-top:2rem">
+      <div class="cta">
+        <h2>Let's build something thoughtful together.</h2>
+        <div class="actions"><a class="btn" href="mailto:ayethadarsoe77@gmail.com">Email me</a><a class="btn outline" href="https://www.linkedin.com/in/aye-thadar-soe-2b5b0040b">LinkedIn</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>&copy; 2026 Aye Thadar Soe</span><nav><a href="https://github.com/ava-builds">GitHub</a><a href="https://www.linkedin.com/in/aye-thadar-soe-2b5b0040b">LinkedIn</a></nav></footer>
+</div>
+</body>
+</html>
